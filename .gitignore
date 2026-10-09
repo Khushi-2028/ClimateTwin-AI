@@ -1,0 +1,26 @@
+﻿# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node dependencies and builds
+node_modules/
+dist/
+.vite/
+
+# Local datasets
+backend/datasets/
+
+# Logs and local editor files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
